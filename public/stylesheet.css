@@ -1,0 +1,662 @@
+@font-face {
+  font-family: 'verybold';
+  src: url('/fonts/Titillium/Titiullium-Black.otf') format('opentype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+#wrapper{
+
+	width:500px;
+	height:200px;
+	background-color:red;
+	margin:0 auto;
+}
+
+body{
+	font-weight:100;
+	background-repeat:on;
+	overflow-x:hidden;
+
+
+font-family: 'Titillium', sans-serif;
+    font-family: Titillium-Light;
+
+
+}
+
+#bgoverlay{
+	background:rgba(24, 66, 170, .6);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index:0;
+
+}
+
+.aboutthis a{
+
+	color:white;
+	font-size:30px;
+	font-weight:300;
+}
+
+.aboutthis a:hover{
+	text-decoration:none;
+	color:white;
+}
+
+#title{
+
+	color:rgba(79, 156, 212, .6);
+	margin-left:20px;
+	margin-top:20px !important;
+	font-weight:900;
+	font-size:20px;
+	font-family:Titillium-Black;
+}
+
+#container{
+
+	margin-top:55px;
+}
+
+#container2{
+
+	margin-top:70px;
+	position:absolute;
+	top:0px;
+	width:100%;
+	min-height:100%;
+}
+
+.resumebox{
+	position:fixed;
+	top:10%;
+	width:80%;
+	height:80%;
+	margin-left:10%;
+	margin-right:10%;
+
+}
+
+.columns{
+
+
+}
+
+.dohideme{
+
+	opacity:0;
+
+}
+
+.profile{
+
+	background-color:white;
+
+}
+
+.fadeIns{
+	padding:5px;
+	padding-top:0px;
+	padding-bottom:0px;
+	opacity:0;
+	color:white;
+
+}
+#socialset{
+
+	position:fixed;
+	bottom:10px;
+	right:20px;
+
+}
+
+.size1{
+	font-size:13px;
+}
+.size2{
+	font-size:15px;
+
+}
+.size3{
+	font-size:20px;
+
+}
+.size4{
+
+	font-size:30px;
+
+}
+.size5{
+
+	font-size:50px;
+
+}
+
+
+.whichplace{
+	padding-top:5px;
+
+	background-color:white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	padding-bottom:5px;
+
+}
+
+.aboutme .title{
+
+	font-weight:300;
+	font-size:30px;
+
+}
+
+.skills{
+
+	left:40%;
+
+}
+
+@font-face {
+  font-family: 'Nickelodeon';
+  src:
+	  url('/fonts/nickfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+
+.nickelodeon{
+	font-family: "Nickelodeon";
+	color:orange;
+	font-size:25px;
+
+}
+
+
+.award{
+
+	font-weight:100;
+	font-size:20px;
+	margin-bottom:10px;
+	display:block;
+	width:100%;
+}
+
+.awards{
+
+	margin-bottom:20px;
+}
+
+
+.banger{
+
+	margin-bottom:20px;
+
+	background:rgba(255,255,255, 1);
+
+	padding:10px;
+
+
+}
+
+
+.worknote{
+
+}
+
+
+
+.naviter{
+
+	background-color:rgba(0,0,0, 0.5);
+	color:white;
+	font-weight:100;
+	z-index:3;
+
+	width:auto;
+	display:inline-block;
+	width:33%;
+
+	text-align:center;
+
+	padding:10px;
+
+}
+
+.experience{
+
+	color:white;
+}
+
+.back{
+
+	position:fixed;
+	top:40px;
+	left:500px;
+	width:10%;
+	cursor:pointer;
+}
+
+.resume{
+	cursor:pointer;
+
+
+}
+
+.aboutme{
+
+	padding-top:5px;
+
+	background-color:white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	padding-bottom:5px;
+
+}
+
+.aboutthis .title{
+
+	font-weight:300;
+	font-size:30px;
+
+}
+
+.backtitle{
+    text-transform: uppercase;
+
+	font-weight:900;
+	font-size:50px;
+	letter-spacing:1px;
+		font-family:Titillium-Black;
+
+}
+
+
+.basictitle{
+	font-weight:200;
+	font-size:20px;
+	position:relative;
+	top:-10px;
+    font-family: Titillium-Semibold;
+
+
+}
+
+.aboutthis strong{
+
+    font-family: Titillium-Semibold;
+
+}
+
+.aboutthis a{
+
+    font-family: Titillium-Semibold;
+
+}
+
+.aboutthis:before {
+
+	background: white;
+	content: "";
+	height: 8px;
+	position: absolute;
+	top: 0;
+	width: 67px;
+
+}
+
+.aboutthis{
+	padding-top:5px;
+
+
+	padding-bottom:5px;
+	color:white;
+
+	font-size:16px;
+	font-weight:100;
+
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	    font-family: Titillium-Thin;
+
+
+}
+
+#socialset img{
+
+	width:80px;
+	height:auto;
+}
+
+.myface img{
+
+	height:400px;
+	margin:0 auto;
+	position:relative;
+	top:20px;
+}
+
+.choicelinks{
+	padding-top:20px;
+	background-color:white;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-left:20px;
+}
+.btn-question{
+
+color:#666;
+font-size:30px;
+font-weight:100;
+
+margin-top:5px;
+cursor:pointer;
+
+margin-bottom:5px;
+max-width:100%;
+
+display:block;
+
+}
+
+.hvr-float{
+
+	width:100%;
+}
+
+.btn-question:hover{
+
+	text-decoration:none;
+	color:#666;
+
+}
+
+
+.navbar{
+
+
+}
+
+.bio{
+
+}
+
+.navlinks a{
+	color:#777;
+	margin-left:10px;
+	font-weight:50;
+}
+
+.navlinks a:hover{
+
+	color:#ccc;
+	text-decoration:none;
+}
+.navlinks{
+
+	margin-right:20px;
+	margin-top:2px;
+
+}
+
+.myname{
+	position:relative;
+	top:20px;
+}
+
+.bio{
+
+	z-index:5;
+}
+
+.skills{
+
+	cursor:pointer;
+
+}
+
+.me{
+
+	position:relative;
+	top:-25px;
+
+}
+.myface{
+
+}
+
+.myface p{
+
+	position:absolute;
+	color:yellow;
+	top:20px;
+	font-size:20px;
+	left:13%;
+	z-index:5;
+}
+
+.portfolio{
+
+	cursor:pointer;
+}
+
+.metext{
+	position:absolute;
+	color:white;
+	font-size:20px;
+}
+
+.portfolio{
+
+	margin-top:12px;
+}
+
+
+.sender-icon{
+
+	 height:100%;
+	 width:10px !important;
+	 margin-right:5%;
+	 font-weight:100;
+
+
+}
+
+.section{
+
+	margin-bottom:180px;
+	margin-top:25px
+
+}
+
+
+#navbar{
+	z-index:10;
+	background-color:white;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	max-height:25px;
+	min-height:0px;
+	height:25px;
+	border-radius:0px;
+
+    box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+
+}
+
+.no-padding, #no-padding{
+
+	padding:0px !important;
+
+}
+
+.clippy-sticky{
+
+
+}
+
+.followMeBar {
+	position: relative;
+	z-index: 1;
+}
+.followMeBar.fixed {
+	position: fixed;
+	top: 60px;
+	box-sizing: border-box;
+	z-index: 0;
+	width: 32%;
+	opacity:1;
+
+}
+.followMeBar.fixed.absolute {
+	position: absolute;
+	width: 100%;
+
+}
+
+
+@media (max-width: 768px) {
+
+	.bubble
+	{
+		width: 60% !important;
+
+		height:auto !important;
+		top:10px !important;
+	}
+	.bubble:after
+	{
+		top:100px !important;
+
+
+	}
+
+	#socialset{
+
+		position:initial !important;
+	}
+	#socialset img{
+
+		width:32% !important;
+		height:auto;
+	}
+
+	.choicelinks{
+
+		margin-bottom:10% !important;
+	}
+
+
+	.myface img{
+
+		height:200px !important;
+	}
+
+}
+
+.treatment{
+	margin:5%;
+	margin-bottom:35px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.8);
+	padding:0px;
+	width:90%;
+
+}
+
+.skillshow{
+	background: linear-gradient(rgba(181, 53, 255, .6), rgba(255,255,255, 0));
+
+    background: -webkit-linear-gradient(rgba(181, 53, 255, .6), rgba(255,255,255, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(181, 53, 255, .6), rgba(255,255,255, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(181, 53, 255, .6), rgba(255,255,255, 0)); /* For Firefox 3.6 to 15 */
+
+	position:absolute;
+	top:25px;
+	z-index:1;
+	padding-top:10px;
+	padding-bottom:140px;
+
+}
+
+.clippy{
+	float:left;
+
+
+}
+
+.container-clippy{
+	margin-top:4%;
+	margin-bottom:12px;
+}
+
+
+.clippy img {
+    -webkit-animation: first 5s; /* Chrome, Safari, Opera */
+    -webkit-animation: second 5s; /* Chrome, Safari, Opera */
+
+}
+
+.name{
+
+	font-weight:200;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {-webkit-filter: saturate(1);}
+    to {-webkit-filter: saturate(1.2);}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {-webkit-filter: saturate(1.2);}
+    to {-webkit-filter: saturate(1);}
+}
+
+
+.bubble
+{
+float:left;
+position: relative;
+top:80px;
+width: 75%;
+height: 100px;
+padding: 10px;
+padding-top:6px !important;
+
+padding-left:25px !important;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+color:#666;
+font-size:30px;
+
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 15px 0;
+border-color: transparent #FFFFFF;
+display: block-inline;
+width: 0;
+z-index: 1;
+left: -15px;
+top: 45px;
+}
+
